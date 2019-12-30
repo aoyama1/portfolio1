@@ -1,0 +1,6 @@
+Flask
+Jinja2
+MarkupSafe
+PyDrive
+PyYAML
+Werkzeug
