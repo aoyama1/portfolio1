@@ -1,15 +1,31 @@
-<!doctype html>
+{% extends "layout.html" %}
+{% block title %}
+Index
+{% endblock %}
+
+{% block headline %}
+{{title}}
+{% endblock %}
+
+{% block content %}
+<p>{{message}}</p>
+{% endblock %}
+
+{% block footer %}
+copylight 2020 ROPE
+{% endblock %}
+<!--<!doctype html>
 <html lang="ja">
 <head>
     <title>Index</title>
     <meta charset="utf-8"/>
     <link rel="stylesheet"
     href="{{url_for('static',filename='style.css')}}">
-    <!-- <style>
+    <style>
     body {margin:10px;}
     h1 {color:lightgray;font-size:30pt;}
     p {font-size:14pt;}
-    </style> -->
+    </style>
 </head>
 <body>
     <h1>{{title}}</h1>
@@ -21,4 +37,4 @@
         </form>
     </div>
 </body>
-</html>
+</html>-->
